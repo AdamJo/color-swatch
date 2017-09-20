@@ -1,0 +1,31 @@
+.singleColors {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	min-width: 80px;
+	width: 20%;
+	min-height: 20vh;
+	height: 40px;
+	margin: 10px;
+
+	border-radius: 5px;
+
+	text-decoration: none;
+	color: inherit;
+
+	box-shadow: 0 0 10px black;
+}
+
+.hexName {
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+	background: #EEEEEE;
+}
+
+@media (max-width: 550px) {
+	.singleColors {
+		min-height: 10vh;
+	}
+}
